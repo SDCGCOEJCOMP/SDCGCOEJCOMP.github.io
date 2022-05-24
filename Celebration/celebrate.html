@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Happy birthday CSS!</title>
+<link href="http://www.samkgo.com/images/favicon_sk.ico" rel="shortcut icon" type="image/x-icon">
+<link href="celebrate.css" rel="stylesheet" type="text/css">
+<script src="https://use.typekit.net/utk0qbj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="celebrate.js"></script>
+<script src="js/js_congratulate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.2/howler.min.js"></script>
+</head>
+
+<body style="background-color: black;" onLoad="thisfunc()">
+  <script>
+    window.onload=setTimeout(function(){
+
+      for(var i=0;i<10;i++)
+      document.getElementById("congratulate").click();
+    },1000);
+  </script>
+<header>
+  <h1><span class="color4">G</span><span class="color2">C</span><span class="color3">O</span><span class="color3">E</span><span class="color1">J'</span><span class="color3">s </span><span class="color1">T</span><span class="color2">e</span><span class="color4">c</span><span class="color1">h</span><span class="color3">-</span><span class="color2">C</span><span class="color1">a</span><span class="color3">r</span><span class="color1">v</span><span class="color2">a</span></h1>
+  <h2>celebrates its Silver Jubilee</h2>
+  <button id="congratulate">Register</button>
+</header>
+<main>
+  <div id="animation">
+    <div id="animation1">
+      <canvas id="canvas1" width="700" height="700"></canvas>
+    </div>
+    <div id="animation2">
+      <canvas id="canvas2" width="900" height="700"></canvas>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
